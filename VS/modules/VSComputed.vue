@@ -39,7 +39,7 @@
           let g = Math.floor(Math.random() * 256);
           let b = Math.floor(Math.random() * 256);
           //抛出随机的三原色字符串
-          return "rgb(" + r + "," + g + "," + b + ")";
+          return `rgb(${r},${g},${b})`;
         }
 
         for (let i = 0; i < 4; i++) {
